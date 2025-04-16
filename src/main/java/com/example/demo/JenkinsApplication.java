@@ -8,7 +8,7 @@ public class JenkinsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsApplication.class, args);
-		system.outprintln("it is a continuous integration job");
+		System.out.println("it is a continuous integration job");
 	}
 
 }
