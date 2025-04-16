@@ -8,7 +8,7 @@ class JenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
-		system.out.println("it is a test class");
+		System.out.println("it is a test class");
 		asserEquals (true , true);
 	}
 
